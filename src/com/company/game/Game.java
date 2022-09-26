@@ -103,7 +103,7 @@ public class Game {
             spawn();
             hasMoved = false;
         }
-        if(!moving && !hasMoved) {
+        if(!moving) {
             if(Keyboard.keyDown(KeyEvent.VK_A)) {
                 hasMoved = true;
                 moving = true;
